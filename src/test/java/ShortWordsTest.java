@@ -84,11 +84,6 @@ public class ShortWordsTest {
         assertEquals(expected, result);
     }
 
-    @Test
-    public void testHamcrestZipStr(){
-
-    }
-
     @AfterAll
     public static void finishedAll() {
         System.out.println("We completed all tests! Congratulations!");

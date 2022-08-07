@@ -1,12 +1,12 @@
 public class ShortWords {
-    public void main(String[] args) {
-        String[] str = {"aaa", "fsdf", "sad", "qw", "sdffsg", "cv"};
-        int count = findShortWords(str);
-        String pos = "CAAAABBBBBCCYVVVVSFGJJJGKKKQQQQQCPOYMNNNNEEJJJGGGGGHHYZZ";
-        String newpos = zipStr(pos);
-        System.out.println(newpos);
-
-    }
+//    public void main(String[] args) {
+//        String[] str = {"aaa", "fsdf", "sad", "qw", "sdffsg", "cv"};
+//        int count = findShortWords(str);
+//        String pos = "CAAAABBBBBCCYVVVVSFGJJJGKKKQQQQQCPOYMNNNNEEJJJGGGGGHHYZZ";
+//        String newpos = zipStr(pos);
+//        System.out.println(newpos);
+//
+//    }
 
     public String zipStr(String pos) {
         if (pos == null || pos.length() == 0) {
